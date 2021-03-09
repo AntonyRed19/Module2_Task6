@@ -12,13 +12,13 @@ namespace Task6.Models
         public abstract string Name { get; }
         public abstract double Price { get; }
         public abstract double Weight { get; }
-        public abstract string CreatedCountry { get; }
-        public TypeofGearbox TypeofGearbox { get; }
+        public abstract Country CreatedCountry { get; }
+        public abstract TypeofGearbox TypeofGearbox { get; }
 
-        public int CountofSeats { get; }
+        public abstract int CountofSeats { get; }
 
-        public int AirBags { get; }
-        public string MarkOfCar { get; }
-        public string ModelofCar { get; }
+        public abstract int AirBags { get; }
+        public abstract string MarkOfCar { get; }
+        public abstract string ModelofCar { get; }
     }
 }
