@@ -3,22 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Task6.Models.Enums;
 
 namespace Task6.Models
 {
-    class Ford
+    public class Ford : KIndofLightCar
     {
-        public override KindofLightCar KindofLightCar => KindofLightCar.Сabriolet;
+        public override KindofLightCar KindofLightCar => KindofLightCar.Pickup;
 
         public override TypeofBody Body => TypeofBody.OpenBody;
 
-        public override string Name => "Bmv";
+        public override string Name => "Ford";
 
-        public override double Price => 41100;
+        public override double Price => 70100;
 
-        public override double Weight => 4000;
+        public override double Weight => 7600;
 
-        public override Country CreatedCountry => Country.Germany;
+        public override Country CreatedCountry => Country.USA;
 
         public override TypeofGearbox TypeofGearbox => TypeofGearbox.Auto;
 
@@ -26,10 +27,8 @@ namespace Task6.Models
 
         public override int AirBags => 4;
 
-        public override string MarkOfCar => "Bmv";
+        public override string ModelofCar => "Pickup 2015";
 
-        public override string ModelofCar => "Hardtop 2007";
-
-        public override TypeofLight TypeofLightCar => TypeofLight.Passenger;
+        public override TypeofLight TypeofLightCar => TypeofLight.Trucks;
     }
 }

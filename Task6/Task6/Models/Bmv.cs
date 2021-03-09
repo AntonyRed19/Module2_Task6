@@ -27,8 +27,6 @@ namespace Task6.Models
 
         public override int AirBags => 4;
 
-        public override string MarkOfCar => "Bmv";
-
         public override string ModelofCar => "Hardtop 2007";
 
         public override TypeofLight TypeofLightCar => TypeofLight.Passenger;
