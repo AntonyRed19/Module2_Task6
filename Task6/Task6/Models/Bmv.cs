@@ -30,5 +30,7 @@ namespace Task6.Models
         public override string ModelofCar => "Hardtop 2007";
 
         public override TypeofLight TypeofLightCar => TypeofLight.Passenger;
+
+        public override double FuelConsumption => 15;
     }
 }
