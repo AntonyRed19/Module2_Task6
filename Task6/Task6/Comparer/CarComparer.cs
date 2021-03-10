@@ -1,10 +1,11 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Task6.Models.Enums;
 using Task6.Models;
+using Task6.Models.Enums;
 
 namespace Task6.Comparer
 {
